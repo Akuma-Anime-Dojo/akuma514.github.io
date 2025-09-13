@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Akuma — Cardio Box & Anime Content</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; text-align:center; background:#111; color:#fff;}
+    header {padding:40px; background:#222;}
+    section {padding:40px;}
+    .fitness {background:#ff3b3b;}
+    .anime {background:#3b3bff;}
+    a.button {display:inline-block; margin:10px; padding:15px 25px; background:#000; color:#fff; text-decoration:none; border-radius:8px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome, I’m Akuma</h1>
+    <p>🥊 Cardio Box Trainer | 🎭 Anime Creator</p>
+    <a class="button" href="#fitness">Go to Cardio Box</a>
+    <a class="button" href="#anime">Go to Anime Content</a>
+  </header>
+
+  <section id="fitness" class="fitness">
+    <h2>Cardio Box Classes</h2>
+    <p>High-energy boxing-inspired workouts to boost strength and stamina.</p>
+    <p><strong>📍 Location:</strong> Montreal</p>
+    <p><strong>📅 Schedule:</strong> Contact for availability</p>
+    <a class="button" href="mailto:youremail@example.com">Book a Session</a>
+  </section>
+
+  <section id="anime" class="anime">
+    <h2>Anime Content</h2>
+    <p>Voice acting, skits, streams, and crew battles.</p>
+    <a class="button" href="https://www.tiktok.com/@animedojo514" target="_blank">TikTok</a>
+    <a class="button" href="https://youtube.com/" target="_blank">YouTube</a>
+    <a class="button" href="https://discord.gg/" target="_blank">Discord</a>
+  </section>
+</body>
+</html>
